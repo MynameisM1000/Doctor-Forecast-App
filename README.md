@@ -7,8 +7,8 @@
 ---
 
 ## 🛠 Technologies
-- Python 3.x  
-- PyQt5  
+- Python  
+- PyQt6  
 - Matplotlib  
 - NumPy  
 - Работа с файлами `.json`  
