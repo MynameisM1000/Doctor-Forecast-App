@@ -1,35 +1,40 @@
-# Doctor-Forecast-App
+# Doctor Forecast App
 
 ## 📌 Description
-Doctor Forecast App is a Python desktop application that visualizes and forecasts the number of doctors by country and medical specialization.  
-The app includes dynamic charts, interpolation, and short-term forecasting.
+**Doctor Forecast App** - это Python (PyQt) приложение для визуализации и прогнозирования численности врачей по странам и специализациям.  
+Приложение динамически строит графики, позволяет выбирать специализацию и показывает прогноз на следующие годы.
+
+---
 
 ## 🛠 Technologies
-- Python
-- PyQt
-- Matplotlib
-- NumPy
-- File handling (.txt)
+- Python 3.x  
+- PyQt5  
+- Matplotlib  
+- NumPy  
+- Работа с файлами `.json`  
+
+---
 
 ## ⚙️ Features
-- Visualization of doctor statistics by country
-- Selection of medical specializations
-- Dynamic graph updates
-- Data interpolation
-- Forecast for upcoming years
-- Automatic data loading and saving from `.txt` files
+- Визуализация статистики врачей по странам  
+- Динамические графики и обновление данных  
+- Выбор специализации врача  
+- Интерполяция данных и прогнозирование  
+- Автозагрузка и сохранение данных из файлов `.json`  
+
+---
+
+## 📸 Screenshots
+
+### Main Window
+![Main Window](screenshots/main_window.png)
+
+### Forecast Graph
+![Forecast Graph](screenshots/forecast_graph.png)
+
+---
 
 ## 🚀 How to Run
-1. Clone the repository  
-   `git clone https://github.com/your-username/Doctor-Forecast-App.git`
-2. Install dependencies  
-   `pip install -r requirements.txt`
-3. Run the application  
-   `python main.py`
-
-## 📈 What I Learned
-- Building PyQt desktop applications
-- Data visualization with Matplotlib
-- Working with real datasets
-- Forecasting and interpolation techniques
-- Structuring a medium-size Python project
+1. Клонируйте репозиторий:  
+```bash
+git clone https://github.com/MynameisM1000/Doctor-Forecast-App.git
