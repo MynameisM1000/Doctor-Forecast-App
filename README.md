@@ -1,8 +1,17 @@
 # Doctor Forecast App
 
 ## 📌 Description
-**Doctor Forecast App** - это Python (PyQt) приложение для визуализации и прогнозирования численности врачей по странам и специализациям.  
-Приложение динамически строит графики, позволяет выбирать специализацию и показывает прогноз на следующие годы.
+**Doctor Forecast App** - is a Python (PyQt) application for visualizing and forecasting the number of doctors by country and specialty.
+The app dynamically generates charts, allows specialty selection, and provides forecasts for upcoming years.
+
+---
+
+## ⚙️ Features
+- Visualization of doctor statistics by country
+- Dynamic charts with real-time data updates
+- Selection of doctor specialties  
+- Data interpolation and forecasting
+- Automatic loading and saving of data from .json files  
 
 ---
 
@@ -11,17 +20,8 @@
 - PyQt6  
 - Matplotlib  
 - NumPy  
-- Работа с файлами `.json`  
-
----
-
-## ⚙️ Features
-- Визуализация статистики врачей по странам  
-- Динамические графики и обновление данных  
-- Выбор специализации врача  
-- Интерполяция данных и прогнозирование  
-- Автозагрузка и сохранение данных из файлов `.json`  
-
+- Работа с файлами `.json`
+  
 ---
 
 ## 📸 Screenshots
